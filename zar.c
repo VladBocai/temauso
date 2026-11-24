@@ -10,7 +10,7 @@ int y = rand() % 6 +1;
 printf("Dau cu zaru 6 5 n-am nevoie de servici\n");
 }else if (x==6 && y==6) {
 printf("Dau cu zaru 6 6 ca mine nu se mai naste\n");}
-else
+else{
 printf("Dau cu zaru %d %d\n", x, y);
 }
 
